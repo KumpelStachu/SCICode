@@ -16,10 +16,9 @@ int main() {
 		date = "";
 		inFile >> date;
 		if (date == "May")
-			ile++;
-			
-		outFile << ile << std::endl; 
+			ile++;	
 	}
+	outFile << ile << std::endl; 
 
 	inFile.close();
 	outFile.close();

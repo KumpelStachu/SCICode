@@ -17,9 +17,8 @@ int main() {
 		inFile >> date;
 		if (date == "Friday")
 			ile++;
-			
-		outFile << ile << std::endl; 
 	}
+	outFile << ile << std::endl; 
 
 	inFile.close();
 	outFile.close();
